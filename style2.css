@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    border: 1px solid red;
+    height: 4rem;
+    position: relative;
+    display: flex;
+    background-color: black;
+}
+
+.navbar .firstDiv{
+    border: 1px solid blue;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    gap: 0.5rem;
+}
+.firDiv1 i{
+    font-size: 2.5rem;
+}
+.firstDiv .firDiv1{
+    border: 1px solid brown;
+    width: 9%;
+    height: 75%;
+    align-self: center;
+    margin-left: 1rem;
+
+}
+.firstDiv .firDiv2{
+    /* border: 1px solid brown; */
+    width: 9%;
+    height: 75%;
+    align-self: center;
+    margin-left: 1rem;
+    background-color: rgb(5, 5, 48);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.firDiv2 i{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+
+}
+.firDiv2 i:hover{
+    font-size: 1.6rem;
+    /* color: white; */
+}
+
+.firDiv2:hover{
+    background-color: rgb(8, 8, 59);
+}
+.firDiv3 .searchDiv{
+    border: 1px solid white;
+    width: 100%;
+    height: 75%;
+    align-self: center;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+
+
+
+.firDiv3 .Icons{
+    /* border: 1px solid red; */
+    height: 100%;
+    width:9%;
+    align-self: center;
+    align-content: center;
+    text-align: right;
+    margin: 0rem 0.2rem;
+
+
+}
+.Icons i{
+    color:  rgb(153, 149, 149);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.Icons i:hover{
+    color: white;
+}
+
+.firstDiv .firDiv3{
+    width: 100%;
+    border: 1px solid rgb(178, 180, 178);
+    height: 80%;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 0.5rem; */
+    border-radius: 2rem;
+    background-color: rgb(9, 9, 53);
+    
+}
+.firDiv3 input{
+    background:none;
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding-left: 1rem;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.firDiv3 input:focus{
+    outline: none;
+}
+.firDiv3 input::placeholder{
+    color: white;
+
+}
+.firDiv3:hover{
+    border: 2px solid white;
+    background-color: rgba(10, 10, 75, 0.801);
+}
+.navbar .seconDiv{
+    border: 1px solid white;
+    width: 22%;
+    height: 55%;
+    position:absolute;
+    right: 22rem;
+    align-self: center;
+    align-content: center;
+    text-align: right;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+}
+.seconDiv a{
+    text-decoration: none;
+    color: rgb(201, 195, 195);
+    /* margin-left: 1rem; */
+    margin-right: 0.9rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.seconDiv a:hover{
+    color: white;
+    
+}
+
+
+
+.navbar .thDiv{
+    border: 1px solid rgb(80, 241, 16);
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    right: 0.5rem;
+    display: flex;
+    gap: 3%;
+
+}
+.thDiv1 a{
+    color: grey;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-left: 0.5rem;
+}
+.thDiv1 a:hover{
+    color: white;
+}
+
+
+
+
+.thDiv .thDiv1{
+    border: 1px solid rgb(235, 22, 22);
+    width: 60%;
+    height: 50%;
+    align-self: center;
+}
+
+
+
+.thDiv .thDiv2{
+    border: 1px solid rebeccapurple;
+    width: 40%;
+    height: 80%;
+    align-self: center;
+}
+.thDiv2 button{
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    color:black;
+    background-color: white;
+    border-radius: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.song{
+    display: flex;
+    position: relative;
+
+}
+body{
+    background-color: black;
+}
+.Aside{
+    border: 1px solid rgb(248, 245, 245);
+    margin-top: 0.5rem;
+    width: 25%;
+    height: 36rem;
+    position: absolute;
+    left: 0.5rem;
+    border-radius: 1rem;
+    background-color: rgba(11, 11, 58, 0.438);
+
+
+}
+.Aside .aside1{
+    border: 1px solid red;
+    height: 4rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+    position: relative;
+    display: flex;
+    color: white;
+    align-items: center;
+
+    
+}
+.aside1 p{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.aside1 .asideIcons{
+    border: 1px solid blue;
+    width: 35%;
+    height: 70%;
+    position: absolute;
+    right: 1rem;
+    align-self: center;
+    align-content: center;
+    
+
+}
+.asideIcons i{
+    color: grey;
+    font-size: 1.5rem;
+   background-color: rgba(11, 11, 58, 0.438);
+
+    border-radius: 50%;
+    padding: 0.2rem; 
+    margin-left: 0.5rem;
+}
+.asideIcons i:hover{
+    color: white;
+    cursor: pointer;
+}
+.artisDiv{
+    color: white;
+    /* border: 1px solid palegreen; */
+    width: 20%;
+    text-align: center;
+    padding: 1%;
+    margin: 0rem 1.5rem;
+     background-color: rgba(94, 94, 121, 0.247);
+     border-radius: 1rem;
+}
+
+.SingerDiv{
+    border: 1px solid greenyellow;
+    width: 100%;
+    height: 84%;
+    border-radius: 0rem 0rem 1rem 1rem;
+    overflow: scroll;
+      background-color: rgba(7, 7, 36, 0.158);
+}
+.artisDiv:hover{
+    background-color: rgb(56, 56, 66);
+}
+.SingerDiv .div1{
+    border: 1px solid gold;
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 1%;
+}
+.div1 .div11{
+    border: 1px solid red;
+    width: 30%;
+    position: relative;
+    color: gray;
+    display: flex;
+    cursor: pointer;
+    
+}
+
+.div11 i{
+    color: gray;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 0.3rem;
+    
+}
+.div11 i:hover{
+    color: white;
+}
+.div11 .iconbar{
+    /* border: 1px solid blue; */
+    position: absolute;
+    width: 30%;
+    right: 1.5rem;
+    color: gray;
+}
+
+.div11:hover{
+    color: white;
+
+}
+.div11 .iconbar i:hover{
+    color: white;
+}
+
+.div2{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 4rem;
+    position: relative;
+    display: flex;
+
+}
+.div2 .singimg{
+    /* border: 1px solid yellowgreen; */
+    width: 15%;
+    height: 75%;
+    position: absolute;
+    align-self: center;
+    left: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+}
+.singimg img{
+    width: 100%;
+}
+.div2 h4{
+    position: absolute;
+    color: rgb(240, 146, 6);
+    left: 5rem;
+    top: 0.3rem;
+}
+.div2 p{
+    color: white;
+    bottom: 0.5rem;
+    position: absolute;
+    left: 5rem;
+}
+.playIcon{
+    /* border: 1px solid rgb(44, 221, 20); */
+    position: absolute;
+    right: 3rem;
+    width: 10%;
+    height: 2rem;
+    bottom: 2rem;
+}
+
+.div2 i{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1.2rem;
+    left: 1.8rem;
+    /* display: none; */
+}
+.div2:hover{
+    background-color: rgba(49, 49, 51, 0.459);
+    cursor: pointer;
+
+}
+
+.active{
+    color: rgb(108, 233, 108);
+}
+
+
+.mainDiv{
+    border: 1px solid rgb(248, 246, 246);
+    height: 36rem;
+    width: 73%;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    border-radius: 1rem;
+     background-color: rgba(11, 11, 58, 0.438);
+
+}
+
+.mainDiv .singerImg{
+    border: 1px solid rebeccapurple;
+    width: 100%;
+    border-radius: 1rem 1rem 0rem 0rem;
+    height: 12rem;
+    position: relative;
+}
+  
+
+.mainDiv .heading{
+    position: absolute;
+    top: 4rem;
+    font-size: 2rem;
+    color: white;
+    left: 1rem;
+
+}
+.mainDiv .afterHeading{
+    /* border: 1px solid palevioletred; */
+    width: 100%;
+    height: 24rem;
+    overflow: scroll;
+}
+.afterHeading .detailDiv{
+    /* border: 1px solid greenyellow; */
+    width: 100%;
+    height: 5rem;
+}
+.mainDiv h1{
+    color: white;
+    margin: 0rem 1rem;
+}
+.afterHeading .songIndex{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.songIndex .songName{
+    /* border: 1px solid red; */
+    width: 50%;
+    overflow: hidden;
+    align-content: center;
+}
+.songIndex p{
+    color:yellow;
+    font-size: 1.2rem;
+    align-self: center;
+    margin-left: 1rem;
+}
+audio{
+    /* border: 1px solid greenyellow; */
+    width: 80%;
+    margin-left: 10rem;
+    color: blueviolet;
+
+
+    
+}
