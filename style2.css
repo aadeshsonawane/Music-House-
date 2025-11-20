@@ -9,7 +9,7 @@
     height: 4rem;
     position: relative;
     display: flex;
-    background-color: black;
+    background-color: rgb(253, 170, 14);
 }
 
 .navbar .firstDiv {
@@ -237,7 +237,7 @@ body {
     position: absolute;
     left: 0.5rem;
     border-radius: 1rem;
-    background-color: rgba(167, 110, 6, 0.74);
+    background-color: #e7c711b7;
 
 
 }
@@ -250,6 +250,7 @@ body {
     display: flex;
     color: white;
     align-items: center;
+    background-color: rgba(128, 0, 128, 0.616);
 
 
 }
@@ -439,7 +440,7 @@ body {
 }
 
 .mainDiv .singerImg {
-    border: 1px solid rgb(236, 6, 25);
+    /* border: 1px solid rgb(236, 6, 25); */
     width: 100%;
     border-radius: 1rem 1rem 0rem 0rem;
     height: 15rem;
@@ -448,7 +449,7 @@ body {
 
 
     background: #f20a0a;
-    background: linear-gradient(180deg, rgb(167, 6, 6) 25%, rgba(28, 28, 26, 0.96) 100%);
+    background: linear-gradient(180deg, rgb(167, 6, 119) 25%, rgba(28, 28, 26, 0.96) 100%);
 }
 
 .singerImg .imgDiv {
@@ -495,7 +496,7 @@ body {
 }
 
 .hertblink {
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
     width: 6%;
     align-content: center;
     margin: 0.3rem;
